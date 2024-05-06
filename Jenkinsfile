@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'aws s3 cp  --recursive ./dist/app/browser/ s3://rama-vina-050520241/'
+                sh 'aws s3 cp  --recursive ./dist/app/browser/ s3://seetha-s3-06052024/'
             }
         }
     }
